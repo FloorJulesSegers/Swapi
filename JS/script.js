@@ -1,3 +1,5 @@
+
+
 let title = document.getElementById('title');
 let characters = document.getElementById('characters');
 let opening = document.getElementById("opening");
@@ -27,7 +29,7 @@ function renderPage(filmId) {
           fetch(char)
             .then(res => res.json())
             .then(character => {
-              //console.log(character)
+              console.log(character)
               characters.innerHTML +=
                 `
     <ul><li>${character.name}</li></ul>
@@ -41,3 +43,5 @@ function renderPage(filmId) {
       }
     })
 }
+
+
