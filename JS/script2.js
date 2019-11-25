@@ -1,5 +1,5 @@
 //const id= document.getElementById('myInput').value;
-const planet= document.getElementById("planet");
+const planet= document.getElementById("starship");
  const id="3";
 
 
@@ -7,15 +7,20 @@ const planet= document.getElementById("planet");
 
 
 // Make a request for a user with a given ID
-function getPlanets(){
+function getStarship(){
 axios.get(`https://swapi.co/api/starships/${id}/`)
   .then(function (response) {
     // handle success
 	console.log(response);
-	let responseData = response.data;
     //name
-    planet.innerHTML = response.data.starships.data.name;
-	console.log(responseData);
+    starship.innerHTML = response.data.name;
+    model.innerHTML = response.data.model;
+    created.innerHTML = response.data.created;
+    maxSpeed.innerHTML = response.data.max_atmosphering_speed;
+    manufacturer.innerHTML = response.data.manufacturer;
+
+
+    
   })
   .catch(function (error) {
     // handle error
