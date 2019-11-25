@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+    margin: 0;
+    left: 0;
+    top: 0;
+    position: relative;
+}
+
+.parent {
+}
+
+#films {
+    left: 50px;
+    top: 20px;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+}
+
+#title {
+
+    top: 100px;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#opening {
+
+    top: 300px;
+    left: 36%;
+    width: 30%;
+    font-family: 'Muli', sans-serif;
+}
+
+.charachters {
+    width: 30%;
+    left: 15%;
+    top: 500px;
+}
+
+ul {
+    width: 30%;
+    left: 15%;
+    top: 500px;
+    font-family: 'Muli', sans-serif;
+    height: 100%;
+    float: left;
+}
