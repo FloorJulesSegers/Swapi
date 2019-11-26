@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 * {
-    background: url("https://ak6.picdn.net/shutterstock/videos/1022088616/thumb/1.jpg");
     margin: 0;
     left: 0;
     top: 0;
     position: relative;
-    color: yellow;
+}
+
+body{
+    background: url("../IMG/starwarsbg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
 
 #films {
-    color: yellow;
     left: 50px;
     top: 20px;
     font-size: 17px;
-
     text-align: center;
     font-family: 'Muli', sans-serif;
 }
@@ -56,3 +58,5 @@ ul{
     height: 100%;
     float: left;
 }
+
+

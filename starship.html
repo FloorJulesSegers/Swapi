@@ -5,13 +5,17 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
-        <link rel="stylesheet" href="./CSS/main.css">
+        <link rel="stylesheet" href="./CSS/starship.css">
     </head>
     <body>
-            <a href="index.html">First</a>
-            <input type="text" placeholder="Type something..." id="myInput">
+            <a href="index.html">Star Wars movies</a>
+            <a href="starship.html">Starships</a>
+            <a href="translate.html">translation</a>
+
+            <input type="text" placeholder="Type in a number" id="myInput">
             <button id="button" type="button" onclick="getStarship();">Get</button>
 
             <div id="starship"></div>
@@ -23,8 +27,7 @@
 
 
 
-            <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
-        <script src="./JS/script2.js" async defer></script>
+        <script src="./JS/starship.js"></script>
     </body>
 </html>

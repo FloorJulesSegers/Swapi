@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+
+* {
+    font-family: 'Muli', sans-serif;
+    margin: 0;
+    left: 0;
+    top: 0;
+    position: relative;
+}
+
+body{
+    background: url("../IMG/starshipbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+div {
+    background: transparent;
+    top: 100px;
+    left: 40%;
+    font-size: 30px;
+    color: white;
+}

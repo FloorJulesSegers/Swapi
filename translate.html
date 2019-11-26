@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <link rel="stylesheet" href="./CSS/translate.css">
+</head>
+
+<body>
+    <a href="index.html">Star Wars movies</a>
+    <a href="starship.html">Starships</a>
+    <a href="translate.html">Translation</a>
+    
+
+    <div class="containerYoda">
+        <input type="text" placeholder="Type something..." id="myYoda">
+        <button id="button" type="button" onclick="getYoda()">Yoda</button>
+        <p id="yoda"></p>
+    </div>
+
+    <div class="containerDothraki">
+            <input type="text" placeholder="Type something..." id="myDothraki">
+            <button id="button" type="button" onclick="getDothraki()">Dothraki</button>
+            <p id="dothraki"></p>
+        </div>
+
+        <div class="containerPirate">
+                <input type="text" placeholder="Type something..." id="myPirate">
+                <button id="button" type="button" onclick="getPirate()">Pirate</button>
+                <p id="Pirate"></p>
+            </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./JS/translate.js" async defer></script>
+</body>
+
+</html>
